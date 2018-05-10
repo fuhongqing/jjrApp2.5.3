@@ -1,0 +1,147 @@
+img{
+    vertical-align: middle;
+}
+header{
+    text-align: center;
+}
+#invitePage{
+    height: 5.9rem;
+    overflow: auto;
+}
+#invitePage>section{
+    padding: .1rem .16rem .35rem .16rem;
+}
+#invitePage>section>.preferences>p{
+    text-align: center;
+    font-size: 16px;
+}
+#invitePage>section>.preferences>p:first-child{
+    color: #FC6F6F;
+    font-size: 30px;
+    margin-bottom: .15rem;
+}
+#invitePage>section>ul{
+    padding-top: .2rem;
+    position: relative;
+    width: 100%;
+    min-height: 1.36rem;
+    margin-top: .4rem;
+    background: #F8F8F8;
+    border: .01rem solid #DDDDDD;
+}
+#invitePage>section>ul>li{
+    text-align: center;
+    height: .28rem;
+    line-height: .28rem;
+}
+#invitePage>section>ul>li:first-child{
+    position: absolute;
+    left: 1.1rem;
+    top: -.18rem;
+    width: 1.26rem;
+    height: .32rem;
+    line-height: .32rem;
+    border-radius: .02rem;
+    background: #D43A41;
+    color: #fff;
+}
+#invitePage>section>ul>li.phoneLi{
+    color: #999999;
+    font-size: 16px;
+}
+#invitePage>section>.tip{
+    padding: .12rem 0;
+    font-size: 12px;
+    color: #999999;
+}
+#invitePage>section>.tip>p{
+    margin: .05rem 0;
+}
+#invitePage>section>.tip>p:not(.firstP){
+    margin-left: .1rem;
+}
+#invitePage>section>.tip>p.firstP{
+    font-size: 14px;
+}
+#invitePage>footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: .6rem;
+    border-top: .01rem solid rgba(0,0,0,.25);
+    padding: .09rem .15rem;
+}
+#invitePage>footer>div{
+    background: #E94149;
+    color: #fff;
+    text-align: center;
+    height: .42rem;
+    line-height: .42rem;
+    border-radius: .02rem;
+}
+/*验证页*/
+#inviteRegPage{
+    display: none;
+}
+#inviteRegPage>section{
+    padding: .28rem .16rem .66rem .16rem;
+}
+#inviteRegPage>section>.inviteText>p{
+    text-align: center;
+    font-size: 14px;
+    color: #999999;
+}
+#inviteRegPage>section>.inviteText>p:first-child{
+    color: #333333;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: .16rem;
+}
+#inviteRegPage>section>ul{
+    width: 100%;
+    margin-top: .68rem;
+}
+#inviteRegPage>section>ul>li{
+    font-size: 16px;
+    height: .51rem;
+    border-bottom: .01rem solid #EEEEEE;
+    display: flex;
+    justify-content: flex-start;
+}
+#inviteRegPage>section>ul>li>input{
+    flex: 1;
+    border: none;
+    outline: none;
+    position: relative;
+    top: .1rem;
+    height: .4rem;
+}
+#inviteRegPage>section>ul>li>.label{
+    color: #999999;
+    padding-top: .18rem;
+    width: .74rem;
+}
+#inviteRegPage #regPhoneInput{
+    flex: 0;
+    width: 1.6rem;
+}
+#regCodeSpan{
+    color: #E94149;
+    position: absolute;
+    right: .15rem;
+    padding-top: .2rem;
+    padding-right: .2rem;
+}
+#inviteRegPage>footer{
+    height: .6rem;
+    border-top: .01rem solid rgba(0,0,0,.25);
+    padding: .09rem .15rem;
+}
+#inviteRegPage>footer>div{
+    background: #E94149;
+    color: #fff;
+    text-align: center;
+    height: .42rem;
+    line-height: .42rem;
+    border-radius: .02rem;
+}

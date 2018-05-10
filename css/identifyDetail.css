@@ -1,0 +1,167 @@
+#detailPage{
+    overflow-y: auto;
+    height: 6rem;
+}
+#detailPage section{
+    padding: 0;
+}
+#detailPage img{
+    vertical-align: middle;
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+}
+#detailPage .passSignImg,#detailPage .rejectSignImg{
+    display: none;
+}
+#detailPage section>img{
+    position: absolute;
+    right: -14px;
+    top: -16px;
+}
+#detailPage header{
+    position: relative;
+    border-bottom: .01rem solid #DDDDDD;
+}
+#detailPage header>div{
+    height: .46rem;
+    text-align: center;
+    line-height: .46rem;
+}
+#detailPage header>.backImg{
+    width: .46rem;
+    position: absolute;
+}
+#detailPage header>.title{
+    font-size: 17px;
+    font-weight: bold;
+}
+#detailPage section{
+    position: relative;
+}
+#detailPage section>ul{
+    padding-left: .15rem;
+}
+#detailPage section>ul>li{
+    padding: 0;
+    height: .46rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .01rem solid #EEEEEE;
+}
+#detailPage section>ul>li>span:last-child{
+    flex: 1;
+}
+#licenceLi{
+    padding: .15rem;
+    border-bottom: .1rem solid #F8F8F8;
+    min-height: 1.2rem;
+}
+#licenceLi>div{
+    position: relative;
+    display: inline-block;
+}
+#licenceLi>div>div{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 15;
+    background: rgba(0,0,0,.1);
+    width: .8rem;
+    height: .8rem;
+}
+#licenceLi>div>img{
+    width: .8rem;
+    height: .8rem;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+#detailPage section .key{
+    display: inline-block;
+    color: #999999;
+    width: 1.08rem;
+}
+#detailPage section .step>span{
+    font-size: 16px;
+}
+#detailPage section .step>span:first-child{
+    color: #999999;
+    width: 1rem;
+    display: inline-block;
+}
+#detailPage section .step>.rejectSpan{
+    color: #FC6F6F;
+}
+#detailPage section .step>.passSpan{
+    color: #59CCAD;
+}
+#detailPage section>.rejectDiv,section>.passDiv,section>.line{
+    display: none;
+}
+#detailPage section>.step1{
+    margin-top: .2rem;
+    margin-left: .15rem;
+}
+#detailPage section>.step2{
+    position: relative;
+    margin-left: .15rem;
+}
+#detailPage section>.step2>.rejectModal{
+    position: absolute;
+    left: 1.2rem;
+    top: .32rem;
+    min-height: .62rem;
+    width: 2.24rem;
+    background: #F8F8F8;
+    border: .01rem solid #DDDDDD;
+    padding: .08rem;
+}
+#detailPage section>.step2>.rejectModal>.caret{
+    position: absolute;
+    left: .24rem;
+    top: -.12rem;
+    border: .06rem solid transparent;
+    border-bottom-color: #F8F8F8;
+}
+#detailPage section>.step2>.rejectModal>.caretOut{
+    top: -.13rem;
+    border-bottom-color: #DDDDDD;
+    z-index: -1;
+}
+#detailPage section .point{
+    display: inline-block;
+    width: .13rem;
+    height: .13rem;
+    margin: 0 .12rem;
+    border-radius: 50%;
+    background: #DDDDDD;
+}
+#detailPage section>.line{
+    height: .3rem;
+    position: relative;
+    bottom: .1rem;
+}
+#detailPage section>.line>span{
+    display: inline-block;
+    width: 1.33rem;
+    height: calc(100% + .2rem);
+    border-right: .01rem dotted #DDDDDD;
+}
+#detailPage footer{
+    display: none;
+    height: .6rem;
+    margin-top: 1.4rem;
+    border-top: .01rem solid rgba(0,0,0,.25);
+    padding: .09rem .15rem;
+}
+#detailPage footer>div{
+    background: #59CCAD;
+    color: #fff;
+    text-align: center;
+    height: .42rem;
+    line-height: .42rem;
+    border-radius: .02rem;
+}
+#modifyPage{
+    display: none;
+}

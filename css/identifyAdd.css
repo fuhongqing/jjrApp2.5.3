@@ -1,0 +1,166 @@
+img.scale{
+    vertical-align: middle;
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+}
+.BMap_Marker{
+}
+header{
+    position: relative;
+    border-bottom: .01rem solid #DDDDDD;
+}
+header>div{
+    height: .46rem;
+    text-align: center;
+    line-height: .46rem;
+}
+header>.backImg{
+    width: .46rem;
+    position: absolute;
+}
+header>.title{
+    font-size: 17px;
+    font-weight: bold;
+}
+section{
+    padding: 0 .15rem;
+}
+ul.inputUl>li{
+    height: .51rem;
+    border-bottom: .01rem solid #EEEEEE;
+    display: flex;
+    justify-content: flex-start;
+}
+section>ul>li>input{
+    flex: 1;
+    border: none;
+    outline: none;
+    position: relative;
+    height: .4rem;
+    top: .1rem;
+}
+section>ul>li>.label{
+    color: #999999;
+    font-size: 16px;
+    width: 1.06rem;
+    padding-top: .18rem;
+}
+#companyAttr{
+    flex: none;
+    width: 1.8rem;
+}
+#getAttr{
+    position: absolute;
+    right: .15rem;
+    padding-top: .18rem;
+}
+#getAttr>img{
+    position: relative;
+    bottom: .02rem;
+}
+#getAttr>span{
+    color: #59CCAD;
+    font-size: 16px;
+}
+/*认证修改页*/
+.uploadDiv{
+    padding: .3rem 0;
+}
+.uploadDiv>span{
+    width: 1.06rem;
+    display: inline-block;
+}
+.uploadDiv>p{
+    position: relative;
+    display: inline-block;
+}
+.uploadDiv>div{
+    position: relative;
+    display: inline-block;
+    margin-right: .15rem;
+}
+.uploadDiv>span{
+    color: #999999;
+}
+.uploadDiv>div>.closeImg{
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+    position: absolute;
+    right: -.2rem;
+    top: -.2rem;
+}
+.uploadDiv img{
+    vertical-align: middle;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    width: .6rem;
+    height: .6rem;
+}
+.uploadDiv .closeImg{
+    width: .42rem;
+    height: .42rem;
+}
+#submitBtn{
+    width: 100%;
+    height: .4rem;
+    line-height: .4rem;
+    text-align: center;
+    background: #59CCAD;
+    color: #fff;
+}
+#mapPage,#btn-file{
+    display: none;
+}
+/*隐藏百度地图logo，版权*/
+.BMap_cpyCtrl, .anchorBL{
+    display: none;
+}
+#mapPage input[type="text"]{
+    font-size: 16px;
+    color: #999999;
+}
+#mapPage header img{
+    vertical-align: middle;
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+}
+#attrMap{
+    height: 4.26rem;
+    width: 100%;
+}
+#mapPage section{
+    padding: .2rem .16rem;
+}
+#imgDiv>img{
+    vertical-align: middle;
+    width: .12rem;
+    height: .2rem;
+    margin-right: 0.06rem;
+}
+#imgDiv>span{
+    vertical-align: middle;
+    font-size: 20px;
+    font-weight: bold;
+}
+#inputDiv{
+    padding-left: .18rem;
+    margin-top: .1rem;
+    margin-bottom: .24rem;
+}
+#inputDiv>input{
+    width: 100%;
+    height: .4rem;
+    line-height: .4rem;
+    outline: none;
+    border: none;
+    border-bottom: .01rem solid #EEEEEE;
+}
+#mapSubmit{
+    width: 3.43rem;
+    height: .4rem;
+    line-height: .4rem;
+    text-align: center;
+    color: #fff;
+    background: #59CCAD;
+    border-radius: .02rem;
+}

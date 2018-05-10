@@ -1,0 +1,43 @@
+img{
+    vertical-align: middle;
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+}
+div,div>p{
+    text-align: center;
+}
+.state{
+    margin-bottom: .5rem;
+    margin-top: 1.3rem;
+    font-size: 16px;
+    color: #999999;
+}
+.state>p:first-child{
+    margin-bottom: .2rem;
+}
+.btn{
+    width: 3.43rem;
+    height: .4rem;
+    line-height: .4rem;
+    margin: 0 auto;
+    background: #59CCAD;
+    color: #fff;
+    font-size: 16px;
+    border-radius: .02rem;
+}
+/*失败*/
+#faileDiv{
+    display: none;
+}
+#downBtn{
+    border: .01rem solid #BCBCBC;
+    color: #BCBCBC;
+    background: #fff;
+    margin-top: .2rem;
+}
+#sliceCode{
+    margin-top: 1.42rem;
+}
+#sliceCode>p:first-child{
+    margin-bottom: -.15rem;
+}
